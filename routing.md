@@ -395,7 +395,7 @@ HTML 表单没有支持 `PUT`、`PATCH` 或 `DELETE` 动作。所以在从 HTML 
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
     </form>
 
-你也可以使用 `methid_field` 辅助函数来生成隐藏的输入字段 `_method`：
+你也可以使用 `method_field` 辅助函数来生成隐藏的输入字段 `_method`：
 
     <?php echo method_field('PUT'); ?>
 
